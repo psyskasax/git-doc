@@ -1,4 +1,24 @@
 ## Merge
+
+A comparer avec [Rebase](./rebase.md)
+
+Avant merge :  
+| main | branch b |
+|-|-|
+| commit 0 fd22594e | commit 0 fd22594e |
+| commit 1 9a3cd5ee | commit 5 0b6fb22e |
+| commit 2 bd036d4c | commit 6 bf53ef31 |
+
+Depuis branch a : `git merge main`  
+| main | branch b |
+|-|-|
+| commit 0 fd22594e | commit 0 fd22594e |
+| commit 1 9a3cd5ee | commit 1 9a3cd5ee |
+| commit 2 bd036d4c | commit 2 bd036d4c |
+| - | commit 5 0b6fb22e |
+| - | commit 6 bf53ef31 |
+| - | **merge commit 276906a0** |
+
 ### Merger test/001 sur test/002 sans commiter sur test/002
 
 | commit | main | test/001 | test/002 |

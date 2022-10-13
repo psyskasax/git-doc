@@ -1,6 +1,9 @@
 ## Rebase
 
 ### Basic rebasing on personnal branch
+
+A comparer avec [Merge](./merge.md)
+
 Avant rebase :  
 | main | branch a |
 |-|-|
