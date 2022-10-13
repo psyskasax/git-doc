@@ -22,4 +22,10 @@ Depuis branch a : `git rebase main`
 
 > Les 2 branches ont différé après le commit 0. Les 2 commits de main sont appliqués sur le commit 0 de la branch a, puis les 2 commits de la branch a sont ré-appliqués en changeant de numéro de commit (nouveaux commits)  
 
-> /!\ Ne pas faire l'inverse, c'est à dire rebaser main à partir de branch a, car cela modifie les commits sur main 
+> /!\ Ne pas faire l'inverse, c'est à dire rebaser main à partir de branch a, car cela modifie les commits sur main  
+
+### Rebase interactif  
+
+Suite au point précédent :  
+Depuis branch a : `git rebase -i main`  
+> Ouvre un éditeur permettant d'indiquer quoi faire des 2 commits 3 et 4. Possibilité de sélectionner, fusionner (différentes manières), rejeter des commits...  
