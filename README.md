@@ -1,5 +1,6 @@
 # git-doc
 
-[Merge](merge.md)  
 [Folders](folders.md)  
+[Branches](./branches.md)  
+[Merge](merge.md)  
 [Rebase](./rebase.md)  
