@@ -1,3 +1,4 @@
 # git-doc
 
-[Merge](merge.md)
+[Merge](merge.md)  
+[Folders](folders.md)  
